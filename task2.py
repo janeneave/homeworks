@@ -26,6 +26,10 @@ class Triangle(Shape):
         return perim
 
 
+# triangle = Triangle(20, 10, 15)
+# triangle.calc_perimeter()
+
+
 class Rectangle(Shape):
     def __init__(self, a, b):
         self.a = a
