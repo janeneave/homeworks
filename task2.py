@@ -18,7 +18,7 @@ class Triangle(Shape):
 
     def calc_perimeter(self):
         """
-        Calculates and returns perimeter of triangle
+        Calculate and return perimeter of triangle
         :return: Perimeter of the triangle
         """
         perim = self.a + self.b + self.c
@@ -37,7 +37,7 @@ class Rectangle(Shape):
 
     def calc_perimeter(self):
         """
-        Calculates and returns perimeter of rectangle
+        Calculate and return perimeter of rectangle
         :return: Perimeter of the rectangle
         """
         perim = 2 * (self.a + self.b)
@@ -51,7 +51,9 @@ class Square(Rectangle):
 
 
 rectangle = Rectangle(20, 10)
-rectangle.calc_perimeter()
+rectangle_perim = rectangle.calc_perimeter()
+print(rectangle_perim)
 
 square = Square(20)
-square.calc_perimeter()
+square_perim = square.calc_perimeter()
+print(square_perim)
